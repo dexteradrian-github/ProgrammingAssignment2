@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## computes the inverse of the special "matrix" returned by function above
 ## if inverse has already been calculated, retrieve the inverse from the cache
-## Used cachemean as an example
+## Used cachemean as a basis
 
 cacheSolve <- function(x, ...) {
         mat_inv <- x$get_inv()
